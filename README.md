@@ -3,4 +3,11 @@
 Implementation of datastructures and algorithms in Java. Based of Goodrich and Tamassia book.
 Data stucutures and concepts covered:
 
-Recursion - tail recursion and recursion with dynamic programming
+Recursion:
+tail recursion and recursion with dynamic programming
+OOP:
+Inheritance
+Polymorphism
+Abstract classes
+Interfaces
+Generics
