@@ -7,14 +7,14 @@ public interface Tree<E> extends Iterable<E> {
      * Returns position of the root of the tree
      * @return Position
      */
-    Position<E> root();
+    public Position<E> root();
     /**
      * Returns the parent of passed in Position
      * @param p a position in the tree
      * @return Position
      * @throws IllegalArgumentException if the supplied position (node) doesn't exist
      */  
-    Position<E> parent(Position<E> p) throws IllegalArgumentException;
+    public Position<E> parent(Position<E> p) throws IllegalArgumentException;
 
     /**
      * Returns an iterable collection containing the children of the position
@@ -22,7 +22,7 @@ public interface Tree<E> extends Iterable<E> {
      * @return
      * @throws IllegalArgumentException
      */
-    Iterable<Position<E>> children(Position<E> p) 
+    public Iterable<Position<E>> children(Position<E> p) 
                                             throws IllegalArgumentException;
 
     /**
